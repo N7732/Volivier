@@ -4,7 +4,7 @@ class Bank:
         self.balance=balance
 class INITIAL(Bank):
     def __init__(self, Account_name, balance,initial_amount):
-        super().__init__(Account_name, balance,)
+        super().__init__(Account_name, balance)
         self.initial_amount=initial_amount
     def deposit1(self):
      d=self.balance+self.initial_amount
